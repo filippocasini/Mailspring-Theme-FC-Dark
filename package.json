@@ -1,13 +1,12 @@
 {
-  "name": "theme-starter",
-  "title": "Starter Theme",
-  "displayName": "Starter Theme",
+  "name": "fc-dark",
+  "title": "FC Dark",
+  "displayName": "FC Dark",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A great dark theme to start your own themes.",
   "license": "GPL-3.0",
   "engines": {
     "mailspring": "*"
   }
 }
-
