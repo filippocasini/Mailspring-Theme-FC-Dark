@@ -140,7 +140,8 @@ html body {
     select {
       border: 0px;
       border-radius: 100px;
-      padding: 2px 6px;
+      padding: 4px 8px;
+      background-color: @background-primary;
     }
   }
   .sidebar-section {
@@ -159,5 +160,31 @@ html body {
       padding: 0;
       border: 3px solid;
     }
+  }
+
+  .message-actions-wrap .button-dropdown .primary-item,
+  .button-dropdown .secondary-picker {
+    background-color: @background-secondary !important;
+    box-shadow: none !important;
+    left: 0 !important;
+  }
+
+  .message-actions-wrap .button-dropdown > div:not(:last-child) {
+    border-right: 1px solid;
+  }
+
+  .button-dropdown .secondary-picker {
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
+
+  .message-actions-wrap .button-dropdown .primary-item {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+  }
+
+  .message-actions-wrap .button-dropdown .secondary-items {
+    border-radius: 8px !important;
+    overflow: hidden;
   }
 }
