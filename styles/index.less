@@ -191,4 +191,39 @@ html body {
   .participant-profile + div {
     display: none;
   }
+
+  .outline-view .item.selected {
+    background: transparent !important;
+    color: @accent-primary !important;
+  }
+  .outline-view .item.selected img.content-mask,
+  .btn-toolbar.mode-toggle.mode-false img.content-mask {
+    background: @accent-primary !important;
+  }
+
+  .list-container .list-rows > div {
+    position: static !important;
+    margin: 6px 12px;
+    flex: 1;
+    width: auto !important;
+    border: 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(32, 33, 36);
+  }
+
+  .list-container .list-rows {
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+  }
+
+  .thread-list .list-item,
+  .draft-list .list-item {
+    background: transparent;
+  }
+
+  .list-tabular .list-tabular-item {
+    border: 0;
+  }
 }
