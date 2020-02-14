@@ -272,4 +272,16 @@ html body {
   #message-list .message-subject-wrap {
     padding-left: 0;
   }
+
+  .list-container .list-item.focused {
+    background: #0a84ff;
+    color: #eee;
+    border-bottom: 1px solid transparent;
+  }
+
+  &.is-blurred .list-container .list-item.focused {
+    background: #0a84ff;
+    opacity: 0.5;
+    border-bottom: 1px solid transparent;
+  }
 }
