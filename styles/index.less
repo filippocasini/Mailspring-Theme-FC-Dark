@@ -216,24 +216,17 @@ html body {
   }
 
   .list-container .list-rows {
-    display: flex;
-    flex-direction: column;
-    height: 100% !important;
     background: transparent;
-    position: static !important;
-    flex: 1;
-    width: auto !important;
     margin: 24px;
-    /* border: 1px solid; */
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 8px !important;
+    background-color: #202124;
+    overflow: hidden !important;
     background-color: @background-secondary;
 
     & > div {
-      position: static !important;
       flex: 1;
-      width: auto !important;
+      width: calc(~"100% - 48px") !important;
       overflow: hidden;
 
       &:not(:last-child) {
